@@ -1,0 +1,92 @@
+body{
+    margin: auto;
+}
+.container{
+    width: 100%;
+    height: 60px;
+    background-color: #064933;
+    text-align: right;
+}
+.name{
+    color: white;
+    float: left;
+    margin-left: 20px;
+}
+.box{
+    background-color: #064933;
+    text-decoration: none;
+    color:white;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+a:hover{
+    color: grey;
+}
+.card:hover{
+    background-color: rgb(212, 247, 178);
+}
+.img-top{
+    width: 100px;
+    height: 100px;
+    /* display: block; */
+    position: relative;
+    left: 115px;
+    top: 25px;
+}
+.text-center1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    top: 2px;
+}
+.text-center2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+}
+.btn-success{
+    text-decoration: none;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    right: 0px;
+}
+.card-text{
+    padding: 10px;
+    text-align: justify;
+    position: relative;
+    bottom: 10px;
+}
+.card{
+    width: 330px;
+    height: 330px;
+    border: 1px solid rgb(73, 114, 12);
+    border: ridge 3mm cadetblue;
+    margin: 10px;
+}
+.container1{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 135px;
+    margin: 10px;
+}
+.container2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 135px;
+    margin: 10px;
+}
+a:link{
+    color: rgb(18, 133, 133);
+}
+a:hover{
+    color: rgb(98, 145, 28);
+}
